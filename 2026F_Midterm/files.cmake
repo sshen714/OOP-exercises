@@ -1,0 +1,41 @@
+set(SRC_FILES
+    BurningSpiceCookie.cpp
+    Character.cpp
+    ChiliPepperCookie.cpp
+    CrimsonCoralCookie.cpp
+    FireSpiritCookie.cpp
+    GingerbreadMan.cpp
+    GingerbreadGroup.cpp
+    MillennialTreeCookie.cpp
+    SeaFairyCookie.cpp
+    SeltzerCookie.cpp
+    SilverbellCookie.cpp
+    WhiteLilyCookie.cpp
+)
+
+set(INCLUDE_FILES
+    BackGingerbreadMan.hpp
+    BurningSpiceCookie.hpp
+    Character.hpp
+    ChiliPepperCookie.hpp
+    CrimsonCoralCookie.hpp
+    FireSpiritCookie.hpp
+    FrontGingerbreadMan.hpp
+    GingerbreadGroup.hpp
+    GingerbreadMan.hpp
+    MiddleGingerbreadMan.hpp
+    MillennialTreeCookie.hpp
+    SeaFairyCookie.hpp
+    SeltzerCookie.hpp
+    SilverbellCookie.hpp
+    WhiteLilyCookie.hpp
+)
+
+set(TEST_FILES
+    ut_character.cpp
+    ut_fire_cookie.cpp
+    ut_gingerbread_group.cpp
+    ut_gingerbread_man.cpp
+    ut_plant_cookie.cpp
+    ut_water_cookie.cpp
+)
